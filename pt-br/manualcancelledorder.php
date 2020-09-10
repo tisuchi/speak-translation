@@ -47,15 +47,14 @@ return [
         'templates' => [
             'title' => 'Template de Mensagens',
             'abandoned_cart_template' => [
-                'title' => 'Template de Pedidos Cancelados',
+                'title' => 'Template de Pedidos Confirmados',
                 'description' => "
-                                Mantenha uma comunicação ativa com seu cliente mesmo em caso de pedidos cancelados. \n
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci, aperiam aut commodi dignissimos, ea harum itaque, iure maxime natus neque officia quaerat quam quos rem rerum veniam. Quaerat, ratione? \n
                                 {first_name}
-                                {order_number}
                                 {product_name}
                                 {variant}
-                                {total}
                                 {order_placed_date}
+                                {total}
                             ",
                 'preview' => 'Preview',
                 'form1' => [

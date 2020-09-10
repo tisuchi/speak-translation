@@ -47,13 +47,13 @@ return [
             'title' => 'Templates das Mensagens',
             'abandoned_cart_template' => [
                 'title' => 'Template de Carrinho Abandonado',
-                'description' => "Configure um fluxo de mensagens automáticas e dispare para os clientes.  \n
+                'description' => "Configure um fluxo de mensagens automáticas e dispare para os clientes,  \n
                                 {first_name}
                                 {checkout_link}
                                 {product_name}
                                 {variant}
-                                {total}
                                 {order_placed_date}
+                                {total}
                             ",
                 'preview' => 'Preview',
                 'form1' => [

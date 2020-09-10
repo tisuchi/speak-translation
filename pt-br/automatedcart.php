@@ -17,7 +17,16 @@ return [
             ],
             'abandoned_cart_template' => [
                 'title' => 'Template de Carrinho Abanandonado',
-                'description' => 'Configure suas mensagens automáticas para converter clientes que abandonaram as compras.',
+                'description' => "
+                    Configure suas mensagens automáticas para converter clientes que abandonaram as compras.
+
+                    {first_name}
+                    {checkout_link}
+                    {product_name}
+                    {variant}
+                    {order_placed_date}
+                    {total}
+                ",
                 'preview' => 'Preview',
                 'form' => [
                     'title' => 'Recuperação de Carrinho Abandonado',
@@ -42,7 +51,16 @@ return [
             ],
             'order_confirmation_template' => [
                 'title' => 'Template de Lembrete de Boleto',
-                'description' => 'Configure lembretes de pagamento de boleto para induzir os seus clientes a realizarem o pagamento logo e evite deixar dinheiro na mesa.',
+                'description' => "
+                    Configure lembretes de pagamento de boleto para induzir os seus clientes a realizarem o pagamento logo e evite deixar dinheiro na mesa.
+
+                    {first_name}
+                    {boleto_link}
+                    {product_name}
+                    {variant}
+                    {order_placed_date}
+                    {total}
+                ",
                 'preview' => 'Preview',
                 'form' => [
                     'title' => 'Lembrete de Boleto',
@@ -67,7 +85,16 @@ return [
             ],
             'canceled_template' => [
                 'title' => 'Template de Pedidos Cancelados',
-                'description' => 'Precisa poupar tempo? Crie um fluxo de mensagens e dispare para os clientes informando ',
+                'description' => "
+                    Precisa poupar tempo? Crie um fluxo de mensagens e dispare para os clientes informando
+
+                    {first_name}
+                    {tracking_number}
+                    {product_name}
+                    {variant}
+                    {order_placed_date}
+                    {total}
+                ",
                 'preview' => 'Preview',
                 'form' => [
                     'title' => 'Template de Pedidos Cancelados',
@@ -92,7 +119,16 @@ return [
             ],
             'complated_template' => [
                 'title' => 'Template de Pedidos Finalizados',
-                'description' => 'Configure mensagens com atualizações sobre o status do pedido.',
+                'description' => "
+                    Configure mensagens com atualizações sobre o status do pedido.
+
+                    {first_name}
+                    {tracking_number}
+                    {product_name}
+                    {variant}
+                    {order_placed_date}
+                    {total}
+                ",
                 'preview' => 'Preview',
                 'form' => [
                     'title' => 'Template de Pedidos Finalizados',

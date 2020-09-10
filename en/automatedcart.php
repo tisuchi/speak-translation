@@ -17,7 +17,16 @@ return [
             ],
             'abandoned_cart_template' => [
                 'title' => 'Abandoned Cart Template',
-                'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci, aperiam aut commodi dignissimos, ea harum itaque, iure maxime natus neque officia quaerat quam quos rem rerum veniam. Quaerat, ratione?',
+                'description' => "
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci, aperiam aut commodi dignissimos, ea harum itaque, iure maxime natus neque officia quaerat quam quos rem rerum veniam. Quaerat, ratione?
+
+                        {first_name}
+                        {checkout_link}
+                        {product_name}
+                        {variant}
+                        {order_placed_date}
+                        {total}
+                ",
                 'preview' => 'Preview',
                 'form' => [
                     'title' => 'Abandoned Cart Recovery',
@@ -32,7 +41,7 @@ return [
             'title' => 'Boleto Reminder',
             'whatsapp_confirguration' => [
                 'title' => 'WhatsApp Confirguration',
-                'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci, aperiam aut commodi dignissimos, ea harum itaque, iure maxime natus neque officia quaerat quam quos rem rerum veniam. Quaerat, ratione?',
+                'description' => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci, aperiam aut commodi dignissimos, ea harum itaque, iure maxime natus neque officia quaerat quam quos rem rerum veniam. Quaerat, ratione?",
                 'form' => [
                     'title' => 'Phone Number',
                     'details' => 'We include a link to your WhatsApp support suuport number in every message (mendatory)',
@@ -42,7 +51,16 @@ return [
             ],
             'order_confirmation_template' => [
                 'title' => 'Boleto Order Confirmation Template',
-                'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci, aperiam aut commodi dignissimos, ea harum itaque, iure maxime natus neque officia quaerat quam quos rem rerum veniam. Quaerat, ratione?',
+                'description' => "
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci, aperiam aut commodi dignissimos, ea harum itaque, iure maxime natus neque officia quaerat quam quos rem rerum veniam. Quaerat, ratione?
+
+                        {first_name}
+                        {boleto_link}
+                        {product_name}
+                        {variant}
+                        {order_placed_date}
+                        {total}
+                ",
                 'preview' => 'Preview',
                 'form' => [
                     'title' => 'Boleto order confirmation',
@@ -67,7 +85,16 @@ return [
             ],
             'canceled_template' => [
                 'title' => 'Canceled Order Template',
-                'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci, aperiam aut commodi dignissimos, ea harum itaque, iure maxime natus neque officia quaerat quam quos rem rerum veniam. Quaerat, ratione?',
+                'description' => "
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci, aperiam aut commodi dignissimos, ea harum itaque, iure maxime natus neque officia quaerat quam quos rem rerum veniam. Quaerat, ratione?
+
+                        {first_name}
+                        {tracking_number}
+                        {product_name}
+                        {variant}
+                        {order_placed_date}
+                        {total}
+                ",
                 'preview' => 'Preview',
                 'form' => [
                     'title' => 'Canceled Order Template',
@@ -92,7 +119,16 @@ return [
             ],
             'complated_template' => [
                 'title' => 'Completed Order Template',
-                'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci, aperiam aut commodi dignissimos, ea harum itaque, iure maxime natus neque officia quaerat quam quos rem rerum veniam. Quaerat, ratione?',
+                'description' => "
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci, aperiam aut commodi dignissimos, ea harum itaque, iure maxime natus neque officia quaerat quam quos rem rerum veniam. Quaerat, ratione?
+
+                        {first_name}
+                        {tracking_number}
+                        {product_name}
+                        {variant}
+                        {order_placed_date}
+                        {total}
+                ",
                 'preview' => 'Preview',
                 'form' => [
                     'title' => 'Completed Order Template',

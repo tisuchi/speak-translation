@@ -8,6 +8,7 @@ return [
             'description' => 'Nota: Lembrete de Boleto sem número de contato, serão automaticamente escondidos. Envie mensagens manuais rapidamente, utilizando o Web WhatsaApp ou utilizando o aplicativo de Desktop do WhatsApp. Clique na aba configurações para configurar.',
             'table' => [
                 'order' => 'Pedido',
+                'boleto_id' => 'Boleto ID',
                 'client' => 'Nome do Cliente',
                 'whatsapp_number' => 'Número WhatsApp',
                 'status' => 'Status',
@@ -50,12 +51,11 @@ return [
                 'description' => "
                                 Use lembretes de pagamento de boleto para induzir os seus clientes a realizarem o pagamento logo e evite deixar dinheiro na mesa. \n
                                 {first_name}
-                                {boleto_link}
-                                {order_number}
-                                {prduct_name}
+                                {product_name}
                                 {variant}
-                                {total}
                                 {order_placed_date}
+                                {total}
+                                {boleto_link}
                             ",
                 'preview' => 'Preview',
                 'form1' => [

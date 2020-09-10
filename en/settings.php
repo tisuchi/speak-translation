@@ -26,5 +26,19 @@ return [
             ],
             'save_button_text' => 'Save Changes'
         ],
+        'password_reset' => [
+            'title' => 'Reset Password',
+            'store' => [
+                'title' => 'Reset your password',
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci, aperiam aut commodi dignissimos, ea harum itaque, iure maxime natus neque officia quaerat quam quos rem rerum veniam. Quaerat, ratione?',
+                'form' => [
+                    'title' => 'Your store name',
+                    'details' => 'Set your new password.',
+                    'password' => 'Password',
+                    'confirm_password' => 'Confirm Password',
+                ],
+            ],
+            'save_button_text' => 'Change password'
+        ],
     ],
 ];

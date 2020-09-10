@@ -49,14 +49,13 @@ return [
             'abandoned_cart_template' => [
                 'title' => 'Template de Pedidos Realizados',
                 'description' => "
-                                Utilize esta mensagem para avisar seu cliente que o pedido foi recebido e que será processado em breve. \n
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci, aperiam aut commodi dignissimos, ea harum itaque, iure maxime natus neque officia quaerat quam quos rem rerum veniam. Quaerat, ratione? \n
                                 {first_name}
-                                {order_number}
                                 {tracking_number}
                                 {product_name}
                                 {variant}
-                                {total}
                                 {order_placed_date}
+                                {total}
                             ",
                 'preview' => 'Preview',
                 'form1' => [
