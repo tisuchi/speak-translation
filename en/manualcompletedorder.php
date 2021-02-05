@@ -51,11 +51,11 @@ return [
                 'description' => "
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci, aperiam aut commodi dignissimos, ea harum itaque, iure maxime natus neque officia quaerat quam quos rem rerum veniam. Quaerat, ratione? \n
                                 {first_name}
-                                {checkout_link}
-                                {boleto_link}
-                                {order_number}
                                 {tracking_number}
+                                {product_name}
+                                {variant}
                                 {order_placed_date}
+                                {total}
                             ",
                 'preview' => 'Preview',
                 'form1' => [
